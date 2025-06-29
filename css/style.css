@@ -1,0 +1,55 @@
+body{
+    font-family: "Titillium Web", sans-serif;
+    background-color: rgb(36, 53, 63);
+    margin: 0;
+    text-align: center;
+}
+.card{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+    background-color: rgb(36, 53, 63);    
+}
+.nav{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    background-color: rgb(36, 53, 63);  
+}
+input{
+    background-color: transparent !important;
+    color: white !important;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+::placeholder{
+    color:rgb(206, 212, 218) !important;
+}
+p a:hover{
+    text-decoration: underline !important;
+}
+.btn-outline-info:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(23, 162, 184) !important;
+    border-color: rgb(23, 162, 184) !important;
+}
+
+.nav-item .btn-outline-warning{
+    border: #ffc107 solid 1px !important;
+}
+.btn-outline-warning:hover{
+    color: rgb(255, 255, 255) !important;
+    background-color:#ffc107 !important;
+    border: #ffc107 solid 1px !important;
+}
+#home {
+    height: 75vh;
+}
+
+h1 {
+    color: #17a2b8;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, .5);
+}
+.content-h1{
+    top: 220px;
+    left: 110px;
+}
